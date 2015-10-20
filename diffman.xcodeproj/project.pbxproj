@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		214AE1BD1BD5323700809E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214AE1BC1BD5323700809E68 /* AppDelegate.swift */; };
+		214AE1BF1BD5323700809E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214AE1BE1BD5323700809E68 /* Assets.xcassets */; };
+		214AE1C21BD5323700809E68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214AE1C01BD5323700809E68 /* MainMenu.xib */; };
+		214AE1CD1BD5323700809E68 /* diffmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214AE1CC1BD5323700809E68 /* diffmanTests.swift */; };
+		214AE1D81BD5323700809E68 /* diffmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214AE1D71BD5323700809E68 /* diffmanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		214AE1C91BD5323700809E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214AE1B11BD5323600809E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214AE1B81BD5323700809E68;
+			remoteInfo = diffman;
+		};
+		214AE1D41BD5323700809E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214AE1B11BD5323600809E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214AE1B81BD5323700809E68;
+			remoteInfo = diffman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		214AE1B91BD5323700809E68 /* diffman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diffman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214AE1BC1BD5323700809E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		214AE1BE1BD5323700809E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214AE1C11BD5323700809E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		214AE1C31BD5323700809E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214AE1C81BD5323700809E68 /* diffmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diffmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214AE1CC1BD5323700809E68 /* diffmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diffmanTests.swift; sourceTree = "<group>"; };
+		214AE1CE1BD5323700809E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214AE1D31BD5323700809E68 /* diffmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diffmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214AE1D71BD5323700809E68 /* diffmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diffmanUITests.swift; sourceTree = "<group>"; };
+		214AE1D91BD5323700809E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214AE1B61BD5323700809E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214AE1C51BD5323700809E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214AE1D01BD5323700809E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214AE1B01BD5323600809E68 = {
+			isa = PBXGroup;
+			children = (
+				214AE1BB1BD5323700809E68 /* diffman */,
+				214AE1CB1BD5323700809E68 /* diffmanTests */,
+				214AE1D61BD5323700809E68 /* diffmanUITests */,
+				214AE1BA1BD5323700809E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		214AE1BA1BD5323700809E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214AE1B91BD5323700809E68 /* diffman.app */,
+				214AE1C81BD5323700809E68 /* diffmanTests.xctest */,
+				214AE1D31BD5323700809E68 /* diffmanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		214AE1BB1BD5323700809E68 /* diffman */ = {
+			isa = PBXGroup;
+			children = (
+				214AE1BC1BD5323700809E68 /* AppDelegate.swift */,
+				214AE1BE1BD5323700809E68 /* Assets.xcassets */,
+				214AE1C01BD5323700809E68 /* MainMenu.xib */,
+				214AE1C31BD5323700809E68 /* Info.plist */,
+			);
+			path = diffman;
+			sourceTree = "<group>";
+		};
+		214AE1CB1BD5323700809E68 /* diffmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				214AE1CC1BD5323700809E68 /* diffmanTests.swift */,
+				214AE1CE1BD5323700809E68 /* Info.plist */,
+			);
+			path = diffmanTests;
+			sourceTree = "<group>";
+		};
+		214AE1D61BD5323700809E68 /* diffmanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				214AE1D71BD5323700809E68 /* diffmanUITests.swift */,
+				214AE1D91BD5323700809E68 /* Info.plist */,
+			);
+			path = diffmanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214AE1B81BD5323700809E68 /* diffman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214AE1DC1BD5323700809E68 /* Build configuration list for PBXNativeTarget "diffman" */;
+			buildPhases = (
+				214AE1B51BD5323700809E68 /* Sources */,
+				214AE1B61BD5323700809E68 /* Frameworks */,
+				214AE1B71BD5323700809E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diffman;
+			productName = diffman;
+			productReference = 214AE1B91BD5323700809E68 /* diffman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		214AE1C71BD5323700809E68 /* diffmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214AE1DF1BD5323700809E68 /* Build configuration list for PBXNativeTarget "diffmanTests" */;
+			buildPhases = (
+				214AE1C41BD5323700809E68 /* Sources */,
+				214AE1C51BD5323700809E68 /* Frameworks */,
+				214AE1C61BD5323700809E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214AE1CA1BD5323700809E68 /* PBXTargetDependency */,
+			);
+			name = diffmanTests;
+			productName = diffmanTests;
+			productReference = 214AE1C81BD5323700809E68 /* diffmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		214AE1D21BD5323700809E68 /* diffmanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214AE1E21BD5323700809E68 /* Build configuration list for PBXNativeTarget "diffmanUITests" */;
+			buildPhases = (
+				214AE1CF1BD5323700809E68 /* Sources */,
+				214AE1D01BD5323700809E68 /* Frameworks */,
+				214AE1D11BD5323700809E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214AE1D51BD5323700809E68 /* PBXTargetDependency */,
+			);
+			name = diffmanUITests;
+			productName = diffmanUITests;
+			productReference = 214AE1D31BD5323700809E68 /* diffmanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214AE1B11BD5323600809E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "mo-fu.org";
+				TargetAttributes = {
+					214AE1B81BD5323700809E68 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					214AE1C71BD5323700809E68 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 214AE1B81BD5323700809E68;
+					};
+					214AE1D21BD5323700809E68 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 214AE1B81BD5323700809E68;
+					};
+				};
+			};
+			buildConfigurationList = 214AE1B41BD5323600809E68 /* Build configuration list for PBXProject "diffman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214AE1B01BD5323600809E68;
+			productRefGroup = 214AE1BA1BD5323700809E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214AE1B81BD5323700809E68 /* diffman */,
+				214AE1C71BD5323700809E68 /* diffmanTests */,
+				214AE1D21BD5323700809E68 /* diffmanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214AE1B71BD5323700809E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214AE1BF1BD5323700809E68 /* Assets.xcassets in Resources */,
+				214AE1C21BD5323700809E68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214AE1C61BD5323700809E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214AE1D11BD5323700809E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214AE1B51BD5323700809E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214AE1BD1BD5323700809E68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214AE1C41BD5323700809E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214AE1CD1BD5323700809E68 /* diffmanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214AE1CF1BD5323700809E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214AE1D81BD5323700809E68 /* diffmanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		214AE1CA1BD5323700809E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214AE1B81BD5323700809E68 /* diffman */;
+			targetProxy = 214AE1C91BD5323700809E68 /* PBXContainerItemProxy */;
+		};
+		214AE1D51BD5323700809E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214AE1B81BD5323700809E68 /* diffman */;
+			targetProxy = 214AE1D41BD5323700809E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214AE1C01BD5323700809E68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214AE1C11BD5323700809E68 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214AE1DA1BD5323700809E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		214AE1DB1BD5323700809E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		214AE1DD1BD5323700809E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = diffman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.diffman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		214AE1DE1BD5323700809E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = diffman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.diffman";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		214AE1E01BD5323700809E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = diffmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.diffmanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diffman.app/Contents/MacOS/diffman";
+			};
+			name = Debug;
+		};
+		214AE1E11BD5323700809E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = diffmanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.diffmanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diffman.app/Contents/MacOS/diffman";
+			};
+			name = Release;
+		};
+		214AE1E31BD5323700809E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = diffmanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.diffmanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = diffman;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		214AE1E41BD5323700809E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = diffmanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.mo-fu.diffmanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = diffman;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214AE1B41BD5323600809E68 /* Build configuration list for PBXProject "diffman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214AE1DA1BD5323700809E68 /* Debug */,
+				214AE1DB1BD5323700809E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214AE1DC1BD5323700809E68 /* Build configuration list for PBXNativeTarget "diffman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214AE1DD1BD5323700809E68 /* Debug */,
+				214AE1DE1BD5323700809E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		214AE1DF1BD5323700809E68 /* Build configuration list for PBXNativeTarget "diffmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214AE1E01BD5323700809E68 /* Debug */,
+				214AE1E11BD5323700809E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		214AE1E21BD5323700809E68 /* Build configuration list for PBXNativeTarget "diffmanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214AE1E31BD5323700809E68 /* Debug */,
+				214AE1E41BD5323700809E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214AE1B11BD5323600809E68 /* Project object */;
+}
